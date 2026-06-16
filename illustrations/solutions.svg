@@ -1,0 +1,99 @@
+<svg width="560" height="480" viewBox="0 0 560 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a technology analytics dashboard with charts, a security badge and a code window">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft background blobs -->
+  <circle cx="110" cy="120" r="120" fill="#DBEAFE" opacity="0.55"/>
+  <circle cx="470" cy="380" r="140" fill="#E0E7FF" opacity="0.5"/>
+  <circle cx="430" cy="90" r="60" fill="#BFDBFE" opacity="0.5"/>
+
+  <!-- faint network nodes -->
+  <g stroke="#93C5FD" stroke-width="2" opacity="0.6">
+    <line x1="60" y1="300" x2="120" y2="350"/>
+    <line x1="120" y1="350" x2="90" y2="410"/>
+    <line x1="500" y1="180" x2="470" y2="230"/>
+  </g>
+  <g fill="#60A5FA" opacity="0.8">
+    <circle cx="60" cy="300" r="6"/>
+    <circle cx="120" cy="350" r="6"/>
+    <circle cx="90" cy="410" r="6"/>
+    <circle cx="500" cy="180" r="6"/>
+    <circle cx="470" cy="230" r="6"/>
+  </g>
+
+  <!-- main dashboard card -->
+  <rect x="86" y="96" width="388" height="296" rx="22" fill="#0F2A44" opacity="0.06"/>
+  <rect x="80" y="88" width="388" height="296" rx="22" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- card header -->
+  <circle cx="108" cy="116" r="5" fill="#CBD5E1"/>
+  <circle cx="126" cy="116" r="5" fill="#CBD5E1"/>
+  <circle cx="144" cy="116" r="5" fill="#CBD5E1"/>
+  <rect x="372" y="108" width="76" height="16" rx="8" fill="#EFF6FF"/>
+  <rect x="384" y="113" width="40" height="6" rx="3" fill="#93C5FD"/>
+  <line x1="80" y1="140" x2="468" y2="140" stroke="#EEF2F7" stroke-width="1.5"/>
+
+  <!-- stat chips -->
+  <rect x="104" y="160" width="150" height="56" rx="12" fill="#F8FAFC" stroke="#E8EEF5" stroke-width="1"/>
+  <rect x="118" y="174" width="58" height="8" rx="4" fill="#CBD5E1"/>
+  <text x="118" y="204" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#2563EB">99.9%</text>
+
+  <rect x="266" y="160" width="150" height="56" rx="12" fill="#F8FAFC" stroke="#E8EEF5" stroke-width="1"/>
+  <rect x="280" y="174" width="46" height="8" rx="4" fill="#CBD5E1"/>
+  <text x="280" y="204" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#1D4ED8">+38%</text>
+  <path d="M372 198 l10 -12 l8 6 l14 -18" stroke="#22C55E" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- bar chart -->
+  <line x1="104" y1="356" x2="416" y2="356" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="116" y="316" width="34" height="40" rx="6" fill="url(#bar)"/>
+  <rect x="166" y="296" width="34" height="60" rx="6" fill="url(#bar)"/>
+  <rect x="216" y="266" width="34" height="90" rx="6" fill="url(#bar)"/>
+  <rect x="266" y="286" width="34" height="70" rx="6" fill="url(#bar)"/>
+  <rect x="316" y="240" width="34" height="116" rx="6" fill="url(#bar)"/>
+  <rect x="366" y="218" width="34" height="138" rx="6" fill="url(#bar)"/>
+
+  <!-- trend line over bars -->
+  <polyline points="133,312 183,292 233,262 283,282 333,236 383,214" fill="none" stroke="#1E3A8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#FFFFFF" stroke="#1E3A8A" stroke-width="3">
+    <circle cx="133" cy="312" r="4"/>
+    <circle cx="233" cy="262" r="4"/>
+    <circle cx="383" cy="214" r="4"/>
+  </g>
+
+  <!-- floating: security badge (top-right) -->
+  <g>
+    <rect x="402" y="150" width="92" height="92" rx="20" fill="#0F2A44" opacity="0.08"/>
+    <rect x="396" y="144" width="92" height="92" rx="20" fill="#2563EB"/>
+    <path d="M442 166 l20 8 v14 c0 14 -9 22 -20 27 c-11 -5 -20 -13 -20 -27 v-14 z" fill="#1E3A8A"/>
+    <path d="M433 189 l7 7 l13 -15" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- floating: code window (bottom-left) -->
+  <g>
+    <rect x="58" y="300" width="150" height="104" rx="16" fill="#0F2A44" opacity="0.08"/>
+    <rect x="52" y="294" width="150" height="104" rx="16" fill="#0F2A44"/>
+    <circle cx="70" cy="312" r="4" fill="#475569"/>
+    <circle cx="84" cy="312" r="4" fill="#475569"/>
+    <text x="66" y="356" font-family="Consolas, monospace" font-size="26" font-weight="700" fill="#60A5FA">&lt;/&gt;</text>
+    <rect x="120" y="344" width="64" height="7" rx="3.5" fill="#334155"/>
+    <rect x="120" y="360" width="44" height="7" rx="3.5" fill="#334155"/>
+    <rect x="66" y="378" width="80" height="7" rx="3.5" fill="#334155"/>
+  </g>
+
+  <!-- floating: progress ring (bottom-right) -->
+  <g transform="translate(430 372)">
+    <circle r="40" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle r="28" fill="none" stroke="#EEF2F7" stroke-width="8"/>
+    <circle r="28" fill="none" stroke="url(#ring)" stroke-width="8" stroke-linecap="round"
+            stroke-dasharray="176" stroke-dashoffset="8" transform="rotate(-90)"/>
+    <text x="0" y="6" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1D4ED8">100%</text>
+  </g>
+</svg>
